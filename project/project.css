@@ -1,0 +1,145 @@
+header {
+    width: 100%;
+    height: 50px;
+    
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+   
+}
+
+#main {
+    margin: 0 auto;
+    position: relative;
+    width: 1440px;
+    height: 850px;
+   
+}
+#sidebar {
+    position:relative;
+    float: left;
+    width: 200px;
+    height: 850px;
+    }
+
+nav {
+    width: 200px;
+    position: absolute;
+    top:175px;
+}
+
+#maintext {
+    position: absolute;
+    top: 345px;
+    left: 470px;
+    font-size: 60px;
+    color: #f41f56;
+    font-weight: 700;
+    z-index: 2;
+}
+
+#mainsubtext {
+    position: absolute;
+    top:460px;
+    left:470px;
+    width : 230px;
+}
+#mainsubtext > p {
+    margin: 0;
+}
+#mainimg {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+   
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+li{
+    font-size:20px;
+    width: 135px;
+    height: 20px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#aboutimg {
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    width: 375px;
+    height: 450px;
+    line-height:200%;
+}
+#myname {
+    position: absolute;
+    top:650px;
+    left: 550px;
+    width: 380px;
+    height: 450px;
+    line-height:200%;
+}
+#moto {
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    width: 600px;
+    height: 150px;
+    line-height:200%;
+}
+#introduce {
+    position: absolute;
+    top: 350px;
+    left:1100px;
+    width: 600px;
+    height: 300px;
+      line-height:200%;
+}
+#myskills {
+    position: absolute;
+    top:680px;
+    left:1100px;
+    width: 600px;
+    height: 470px;
+      line-height:200%;
+}
+#introduces {
+    position: absolute;
+    top: 550px;
+    left:1100px;
+    width: 600px;
+    height: 300px;
+      line-height:200%;
+}
+#mynames {
+    position: absolute;
+    top:550px;
+    left: 550px;
+    width: 380px;
+    height: 450px;
+    line-height:200%;
+}
+#myskillsd {
+    position: absolute;
+    top:900px;
+    left:1100px;
+    width: 600px;
+    height: 470px;
+      line-height:200%;
+}
+
